@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 338ddc8ec593e43298978aec0e2d0feb
+guid: 9c6e50b05e3424068baa1d4b76c5bb87
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -7,11 +7,11 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Terrain_001_TerrainMesh
+    4300000: Tarrain
     9500000: //RootNode
   materials:
     importMaterials: 1
-    materialName: 1
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4

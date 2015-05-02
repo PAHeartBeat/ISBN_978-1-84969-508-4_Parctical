@@ -1,6 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Chapter 02/Shaders/02_07_01_Diffuse PS Level Effect.shader">
+    <Files>
+      <File FileName="Assets/Chapter 02/Script/ProceduralTexture.cs" Line="23" Column="41" />
+      <File FileName="Assets/Chapter 02/Shaders/02_07_01_Diffuse PS Level Effect.shader" Line="65" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
