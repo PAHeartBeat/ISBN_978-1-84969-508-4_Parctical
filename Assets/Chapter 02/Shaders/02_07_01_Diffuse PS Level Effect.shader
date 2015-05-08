@@ -1,4 +1,4 @@
-﻿Shader "PacktPub.com/Kenny Lammers/Cook Book Shaders/02_07_01_Diffuse PS Level Effect" {
+﻿Shader "PacktPub.com/Kenny Lammers/Cook Book Shaders/Diffuse PS Level Effect" {
 	Properties {
 		_Color ("Color", Color) = (1, 1, 1, 1)
 		_MainTex ("Base (RGB)", 2D) = "white" {}

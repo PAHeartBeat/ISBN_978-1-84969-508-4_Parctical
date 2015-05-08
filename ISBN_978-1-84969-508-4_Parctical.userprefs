@@ -1,9 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Chapter 02/Shaders/02_07_01_Diffuse PS Level Effect.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Chapter 03/Shaders/03_06_02_Anisotropic Specular (View base).shader">
     <Files>
-      <File FileName="Assets/Chapter 02/Script/ProceduralTexture.cs" Line="23" Column="41" />
-      <File FileName="Assets/Chapter 02/Shaders/02_07_01_Diffuse PS Level Effect.shader" Line="65" Column="1" />
+      <File FileName="Assets/Chapter 02/Script/ProceduralTexture.cs" Line="1" Column="1" />
+      <File FileName="../../../Downloads/Compeleted/Software/Unity/builtin_shaders-4.6.5/CGIncludes/Lighting.cginc" Line="1" Column="1" />
+      <File FileName="Assets/Chapter 03/Shaders/03_03_01_Custom BlinnPhong.shader" Line="1" Column="1" />
+      <File FileName="Assets/Chapter 03/Shaders/03_04_01_Specular Masking.shader" Line="1" Column="1" />
+      <File FileName="Assets/Chapter 03/Shaders/03_06_01_Anisotropic Specular.shader" Line="1" Column="1" />
+      <File FileName="Assets/Chapter 03/Shaders/03_06_02_Anisotropic Specular (View base).shader" Line="63" Column="34" />
+      <File FileName="Assets/Chapter 03/Shaders/03_01_02_Unity Specular (BlinnPhong) Ref.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

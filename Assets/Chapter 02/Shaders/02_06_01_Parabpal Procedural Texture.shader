@@ -1,4 +1,4 @@
-﻿Shader "PacktPub.com/Kenny Lammers/Cook Book Shaders/02_06_01_Parabpal Procedural Texture" {
+﻿Shader "PacktPub.com/Kenny Lammers/Cook Book Shaders/Parabpal Procedural Texture" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 	}

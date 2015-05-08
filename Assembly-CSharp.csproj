@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_5;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,17 +39,22 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity v4.6.4p2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Applications/Unity v4.6.5f1/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity v4.6.4p2/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Applications/Unity v4.6.5f1/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Chapter 02\Script\ProceduralTexture.cs" />
+     <None Include="Assets\Chapter 03\Shaders\03_06_02_Anisotropic Specular (View base).shader" />
      <None Include="Assets\Chapter 02\Shaders\02_02_01_Sprite Animation.shader" />
+     <None Include="Assets\Chapter 03\Shaders\03_01_01_Unity Specular (BlinnPhong) - 01.shader" />
      <None Include="Assets\Chapter 02\Shaders\02_04_03_Half Lambert ViewDir Normal.shader" />
+     <None Include="Assets\Chapter 03\Shaders\03_02_01_Specular (Phong).shader" />
      <None Include="Assets\Chapter 01\Shaders\01_05_01_BRDF Ramp Texture (Half Lambert).shader" />
+     <None Include="Assets\Chapter 03\Shaders\03_01_02_Unity Specular (BlinnPhong) Ref.shader" />
+     <None Include="Assets\Chapter 03\Shaders\03_03_01_Custom BlinnPhong.shader" />
      <None Include="Assets\Chapter 02\Shaders\02_05_01_Diffuse Normal Intencity.shader" />
      <None Include="Assets\Chapter 01\Shaders\01_02_01_Custom Light.shader" />
      <None Include="Assets\Chapter 02\Shaders\02_07_01_Diffuse PS Level Effect.shader" />
@@ -57,8 +62,10 @@
      <None Include="Assets\Chapter 01\Shaders\01_04_02_Ramp Texture.shader" />
      <None Include="Assets\Chapter 02\Shaders\02_04_02_Half Lambert Normal.shader" />
      <None Include="Assets\Chapter 01\Shaders\01_05_04_Custom Light (View Direction).shader" />
+     <None Include="Assets\Chapter 03\Shaders\03_06_01_Anisotropic Specular.shader" />
      <None Include="Assets\Chapter 01\Shaders\01_05_02_BRDF Ramp Texture.shader" />
      <None Include="Assets\Chapter 02\Shaders\02_01_01_Scroll UVs.shader" />
+     <None Include="Assets\Chapter 03\Shaders\03_04_01_Specular Masking.shader" />
      <None Include="Assets\Chapter 02\Shaders\02_05_03_Half Lambert ViewDir Normal Intencity.shader" />
      <None Include="Assets\Chapter 01\Shaders\01_01_01_Basic Diffuse.shader" />
      <None Include="Assets\Chapter 01\Shaders\01_03_01_Half Lambert.shader" />
@@ -66,9 +73,11 @@
      <None Include="Assets\Chapter 01\Shaders\01_04_01_Ramp Texture (Half Lambert).shader" />
      <None Include="Assets\Chapter 01\Shaders\01_05_03_Half Lambert (View Direction).shader" />
      <None Include="Assets\Chapter 02\Shaders\02_05_02_Half Lambert Normal Intencity.shader" />
+     <None Include="Assets\Chapter 03\Shaders\03_02_02_Specular (Custom Phong or BlinnPhong).shader" />
+     <None Include="Assets\Chapter 03\Shaders\03_05_01_Specular Roughness (Matalic or Soft).shader" />
      <None Include="Assets\Chapter 02\Shaders\02_03_01_Texture Blending.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity v4.6.4p2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Applications/Unity v4.6.5f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.5/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
